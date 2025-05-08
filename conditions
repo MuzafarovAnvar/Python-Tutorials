@@ -1,0 +1,21 @@
+income = input('How much your income in $ ? ')
+credit = input('How much money do you want for credit in $ ? ')
+#print(type(price))
+price1 = float(income)
+credit1 = float(credit)
+#print(type(price1))
+#cost = 0.1*price1
+#cost1 = 0.2*price1
+#have_credit = False
+#no_credit = False
+no_money = 'you are bomjara'
+if price1>=100000 and credit1>=50000:
+    print(f'good')
+if price1>=100000 and 50000>credit1>=5000:
+    print(f'best')    
+if 100000>price1>=10000 and credit1>=50000:
+    print(f'bad')   
+elif 100000>price1>=10000 and 50000>credit1>=5000: 
+       print(f'not bad')
+else:
+    print(no_money.upper())
