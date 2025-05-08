@@ -1,0 +1,13 @@
+print("what`s your name ?")
+name = input()
+print("what`s your friends name ?")
+name1 = input()
+print("Name please ?")
+name2 = input()
+name3 = ({name}, {name1}, {name2})
+name4 = name3
+name5 = name3 + name4
+print(name5)
+#list(name3)
+print(type(name3))
+id(name3)
