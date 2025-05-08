@@ -19,3 +19,26 @@ elif 100000>price1>=10000 and 50000>credit1>=5000:
        print(f'not bad')
 else:
     print(no_money.upper())
+
+user = input('who are you ? ')
+logged_in = True
+if user == 'admin' or logged_in:
+    print('you are admin')
+#elif user != 'admin' and logged_in:
+#    print('you are simple user')
+else:
+    print('you are enemy')
+
+
+
+
+user = input('who are you ? ')
+logged_in = False
+if user == 'admin' and logged_in:
+    print('you are admin')
+elif user != 'admin' and logged_in:
+    print('you are simple user')
+else:
+    print('you are enemy')
+
+
